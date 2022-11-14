@@ -1,0 +1,151 @@
+* {
+    min-width: 0px;
+    min-height: 0px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0px solid;
+    outline: none;
+}
+  
+div {
+    display: block;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+.header-wrapper {
+    width: 100%;
+    height: 4rem;
+    padding: 0.5rem 0.8rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.header-wrapper > * {
+    height: 100%;
+}
+
+.header-content {
+    min-width: 18rem;  
+    display: flex;
+    gap: 0.5rem;
+}
+
+.menu-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+}
+
+.menu-button-wrapper button.menu-button {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.1rem;
+    align-items: center;
+}
+
+button.menu-button svg.menu-button-icon {
+    padding: 2px;
+    border-radius: 0.6rem;
+}
+
+button.menu-button svg.menu-button-icon:hover {
+    background-color: lightgray;
+}
+
+button.menu-button svg.menu-button-icon > polyline {
+    fill: none;
+    stroke: black;
+    stroke-width: 1rem;
+    stroke-linecap: round;
+}
+
+.header-container {
+    flex: 1 1 auto;
+    padding: 0.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.header-container span.info-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-grow: 1;
+}
+
+.user-info-wrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.7rem;
+}
+
+.user-info-wrapper img.user-icon {
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 0.3rem;
+}
+
+.user-info-wrapper .user-info {
+    padding: 0.1rem 0;
+    display: flex;
+    flex-grow: 1;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.user-info-wrapper .user-info > span {
+    width: 100%;
+    text-align: left;
+}
+
+.user-info .user-info-email {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+.user-info .user-info-name {
+    font-size: 12px;
+    font-weight: 400;  
+    color: gray;
+}
+
+button.user-info-detail {
+    width: 1rem;
+    flex-grow: 0;
+}
+
+button.user-info-detail svg.arrow-image > polyline {
+    stroke: gray;
+    stroke-width: 0.7rem;
+    fill: none;
+}
+
+
+
+
+
+
+
+
+.header-navigation {
+    flex: 1;
+    background-color: magenta;
+}
